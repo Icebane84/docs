@@ -1,0 +1,61 @@
+---
+title: 'The Phoenix Scaffolding'
+description: 'The Molecular Blueprint (GVRN.Protocol.Scaffolding)'
+icon: 'cubes'
+---
+
+## **Genesis Stamp: 2026-02-01**
+
+<Info>**Domain:** GVRN (Governance) | **State:** CANONIZED | **Version:** v13.0 [ASCENDED]</Info>
+
+## Overview
+
+The **Phoenix Scaffolding** defines the immutable **5-Block Structure** that all Ascended artifacts must adhere to.
+
+> **"Structure without soul is a cage. This scaffolding allows the soul to sing."**
+
+---
+
+## Block Architecture
+
+<Steps>
+  <Step title="Block A: Identification Lock (UIP-V13)">
+    The "Driver's License" of the file. Contains:
+    *   **Artifact ID**: `DOMAIN.Subsystem.Descriptor`
+    *   **Version**: `v13.0 [ASCENDED]`
+    *   **Integrity Hash**: SHA-256 Seal
+  </Step>
+  <Step title="Block B: Ethos Field (IDM-001)">
+    The "Mission Statement".
+    *   **Moral North**: Why does this exist?
+    *   **Governing Intent**: What problem does it solve?
+  </Step>
+  <Step title="Block C: Cognitive Spine">
+    The "Axiomatic Alignment". Maps the artifact to:
+    *   **Mind (ψ)**
+    *   **Memory (μ)**
+    *   **Law (Λ)**
+  </Step>
+  <Step title="Block D: Synergy Block">
+    The "Network Edges".
+    *   **Format**: `ID, RELATION, IMPACT`
+  </Step>
+  <Step title="Block E: Integrity Gate (CIV-GATE)">
+    The "Quality Control".
+    *   **Sentinel Verdict**: PASS/FAIL
+    *   **Drift Threshold**: `< 0.1`
+  </Step>
+</Steps>
+
+---
+
+## Template Source
+
+<CodeGroup>
+    ```yaml Frontmatter --- title: "{{ TITLE }}" description: "{{ DESC }}" icon: "{{ ICON }}" --- ``` ```markdown Header
+    ## **Genesis Stamp: {{ DATE }}**
+    <Info>
+        **Domain:** {{ DOMAIN }} | **State:** {{ STATE }}
+    </Info>
+    ```
+</CodeGroup>

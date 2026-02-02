@@ -1,0 +1,48 @@
+---
+title: 'The Sentinel Protocol'
+description: 'The Code Sentinel (GVRN.Sentinel.Scan)'
+icon: 'shield-halved'
+---
+
+## **Genesis Stamp: 2026-02-01**
+
+<Info>**Domain:** GVRN (Governance) | **State:** CANONIZED | **Version:** v13.0 [ASCENDED]</Info>
+
+## Overview
+
+The **Sentinel** is the "Immune System" of the Synarche. It does not negotiate. If a file fails the S-Matrix check, it
+is quarantined.
+
+> **"We trust the user, but we verify the code."**
+
+---
+
+## The Sentinel S-Matrix
+
+The Sentinel runs on every commit, checking six dimensions of health.
+
+| Check ID | Name           | Metric                | Standard                 |
+| :------- | :------------- | :-------------------- | :----------------------- |
+| **S1**   | **Linting**    | `markdownlint` Errors | **0 Errors**             |
+| **S2**   | **Structure**  | `SGM-V13` Compliance  | **Blocks A-F Present**   |
+| **S3**   | **Complexity** | Cyclomatic Depth      | **Max Depth < 15**       |
+| **S4**   | **Security**   | `npm audit`           | **0 High/Critical**      |
+| **S5**   | **Links**      | Synergistic Density   | **> 2 Reciprocal Links** |
+| **S6**   | **Evolution**  | Header Accuracy       | **Genesis Stamp Valid**  |
+
+## Operational Workflow
+
+<Steps>
+    <Step title="Trigger">`git commit` or `CMD: RUN_SENTINEL` initiates the scan.</Step>
+    <Step title="Execution">The **Coherent Synthesis Engine** executes the S-Matrix logic.</Step>
+    <Step title="Result Logic">
+        * **PASS**: Commit proceeds. Logged in `GVRN.Triage.Report`. * **FAIL**: Commit rejected. **Dissonance Quest**
+        generated.
+    </Step>
+</Steps>
+
+## Actionable Commands
+
+<CodeGroup>
+    ```bash Defend CMD: RUN_SENTINEL --target "." ``` ```bash Health Check CMD: REPORT_HEALTH --period "24h" ```
+</CodeGroup>

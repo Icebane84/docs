@@ -12,7 +12,7 @@
     "light": "#34D3FF",
     "dark": "#8B5CF6"
   },
-
+  "theme": "mint",
   "navigation": [
     {
       "group": "Governance",
@@ -48,7 +48,6 @@
       "pages": [
         "development/setup",
         "development/skill",
-        "development/playground",
         "essentials/style-guide"
       ]
     }

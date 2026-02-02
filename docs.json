@@ -12,48 +12,45 @@
     "dark": "#8B5CF6"
   },
   "theme": "mint",
-
-  "navigation": {
-    "groups": [
-      {
-        "group": "Governance",
-        "pages": [
-          "governance/codex",
-          "governance/rosetta",
-          "governance/catalyst",
-          "governance/protocols/scaffolding",
-          "governance/protocols/lattice",
-          "governance/sentinel",
-          "governance/audit"
-        ]
-      },
-      {
-        "group": "Architecture",
-        "pages": [
-          "architecture/loom",
-          "architecture/engine",
-          "architecture/resonance"
-        ]
-      },
-      {
-        "group": "Entities",
-        "pages": [
-          "entities/registry",
-          "entities/triad",
-          "entities/sophia",
-          "entities/sentinel-prime"
-        ]
-      },
-      {
-        "group": "Development",
-        "pages": [
-          "development/setup",
-          "development/skill",
-          "essentials/style-guide"
-        ]
-      }
-    ]
-  },
+  "navigation": [
+    {
+      "group": "Governance",
+      "pages": [
+        "governance/codex",
+        "governance/rosetta",
+        "governance/catalyst",
+        "governance/protocols/scaffolding",
+        "governance/protocols/lattice",
+        "governance/sentinel",
+        "governance/audit"
+      ]
+    },
+    {
+      "group": "Architecture",
+      "pages": [
+        "architecture/loom",
+        "architecture/engine",
+        "architecture/resonance"
+      ]
+    },
+    {
+      "group": "Entities",
+      "pages": [
+        "entities/registry",
+        "entities/triad",
+        "entities/sophia",
+        "entities/sentinel-prime"
+      ]
+    },
+    {
+      "group": "Development",
+      "pages": [
+        "development/setup",
+        "development/skill",
+        "essentials/style-guide"
+      ]
+    }
+  ],
   "footer": {
     "socials": {
       "github": "https://github.com/icebane84"

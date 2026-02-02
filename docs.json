@@ -47,6 +47,7 @@
       "pages": [
         "development/setup",
         "development/skill",
+        "development/playground",
         "essentials/style-guide"
       ]
     }

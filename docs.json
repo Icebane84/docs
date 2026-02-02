@@ -11,6 +11,7 @@
     "light": "#34D3FF",
     "dark": "#8B5CF6"
   },
+  "theme": "mint",
 
   "navigation": [
     {

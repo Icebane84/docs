@@ -48,12 +48,20 @@
             ]
           },
           {
+            "group": "AI Tools",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/windsurf",
+              "ai-tools/claude-code"
+            ]
+          },
+          {
             "group": "Development",
             "pages": [
               "development/setup",
               "development/skill",
               "development/playground",
-              "essentials/style-guide"
+              "development/style-guide"
             ]
           }
         ]
